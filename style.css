@@ -11,8 +11,8 @@ body, html{
   }
   
   .para-img-1{
-      background-image: url(https://cdn.wallpapersafari.com/65/72/m3ECPn.jpg);
-      /* background-image: url(https://free4kwallpapers.com/uploads/originals/2020/04/29/marvel-avengers-wallpaper.jpg); */
+      /* background-image: url(https://cdn.wallpapersafari.com/65/72/m3ECPn.jpg); */
+      background-image: url(https://free4kwallpapers.com/uploads/originals/2020/04/29/marvel-avengers-wallpaper.jpg);
   }
   .para-img-2{
     background-image: url(./Photos/captain.jpg);
@@ -38,19 +38,21 @@ body, html{
     min-height: 100%;
 }
 .para-img-1 , .para-img-2 , .para-img-3,.para-img-4,.para-img-5,.para-img-6,.para-img-7{
-      /* position: relative; */
-      /* opacity: 0.60; */
       height: 100%;
-      /* background-position: center; */
       background-size: cover;
       background-repeat: no-repeat;
       background-attachment: fixed;
   }
-  .center{
+  .center:first-child{
       display: flex;
       justify-content: center;
-      align-items: flex-end;
+      align-items: flex-start;
   }
+  .center{
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
 
   .p-text{  
     width: 50%;
@@ -72,12 +74,27 @@ body, html{
 
   @media (max-width:1000px){
     .para-img-1 , .para-img-2 , .para-img-3,.para-img-4,.para-img-5,.para-img-6,.para-img-7{
-        /* position: relative; */
-        /* opacity: 0.60; */
         height: 100%;
-        /* background-position: center; */
         background-size: contain;
         background-repeat: no-repeat;
+        background-attachment: fixed;
+    }
+  }
+
+  @media (max-width:800px){
+    .section{
+        padding: 3rem 2rem;
+       
+    }
+    .para-img-2 {
+        background-position: center;
+    }
+    .para-img-1 ,  .para-img-3,.para-img-4,.para-img-5,.para-img-6,.para-img-7{
+        
+        /* height: 30vh !important; */
+        background-size: 150%;
+        background-repeat: no-repeat;
+       
         background-attachment: fixed;
     }
   }
