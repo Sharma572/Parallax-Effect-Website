@@ -11,7 +11,10 @@ body, html{
   }
   
   .para-img-1{
-      background-image: url(./Photos/bg-main.jpg);
+      /* background-image: url(./Photos/bg-main.jpg); */
+      /* background-image: url(https://www.myfreewalls.com/public/uploads/preview/4k-captain-america-avengers-wallpaper-11624127491ielxrqiobn.jpg); */
+      /* background-image: url(https://i.pinimg.com/originals/f2/09/10/f209107c957f11b243c6a1afbe43e1ca.jpg); */
+      background-image: url(https://wallpaperaccess.com/full/3379182.jpg);
       min-height: 100%;
   }
   .para-img-2{
@@ -35,9 +38,9 @@ body, html{
     min-height: 100%;
 }
   .para-img-1 , .para-img-2 , .para-img-3,.para-img-4,.para-img-5,.para-img-6{
-      position: relative;
-      opacity: 0.60;
-      background-position: center;
+      /* position: relative; */
+      /* opacity: 0.60; */
+      /* background-position: center; */
       background-size: cover;
       background-repeat: no-repeat;
       background-attachment: fixed;
