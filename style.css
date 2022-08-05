@@ -40,7 +40,7 @@ body, html{
   .para-img-1 , .para-img-2 , .para-img-3,.para-img-4,.para-img-5,.para-img-6{
       /* position: relative; */
       /* opacity: 0.60; */
-      /* background-position: center; */
+      background-position: center;
       background-size: cover;
       background-repeat: no-repeat;
       background-attachment: fixed;
