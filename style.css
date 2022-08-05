@@ -33,7 +33,11 @@ body, html{
     background-image: url(https://www.xtrafondos.com/wallpapers/thor-fanart-minimalista-6340.jpg);
     min-height: 100%;
 }
-  .para-img-1 , .para-img-2 , .para-img-3,.para-img-4,.para-img-5,.para-img-6{
+.para-img-7{
+    background-image: url(https://wallpaperaccess.com/full/6418197.jpg);
+    min-height: 100%;
+}
+.para-img-1 , .para-img-2 , .para-img-3,.para-img-4,.para-img-5,.para-img-6,.para-img-7{
       /* position: relative; */
       /* opacity: 0.60; */
       height: 100%;
@@ -45,7 +49,7 @@ body, html{
   .center{
       display: flex;
       justify-content: center;
-      /* align-items: center; */
+      align-items: flex-end;
   }
 
   .p-text{  
@@ -64,4 +68,16 @@ body, html{
   .section{
       padding: 3rem 8rem;
       text-align: center;
+  }
+
+  @media (max-width:1000px){
+    .para-img-1 , .para-img-2 , .para-img-3,.para-img-4,.para-img-5,.para-img-6,.para-img-7{
+        /* position: relative; */
+        /* opacity: 0.60; */
+        height: 100%;
+        /* background-position: center; */
+        background-size: contain;
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+    }
   }
