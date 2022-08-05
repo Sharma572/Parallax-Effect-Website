@@ -11,36 +11,33 @@ body, html{
   }
   
   .para-img-1{
-      /* background-image: url(./Photos/bg-main.jpg); */
-      /* background-image: url(https://www.myfreewalls.com/public/uploads/preview/4k-captain-america-avengers-wallpaper-11624127491ielxrqiobn.jpg); */
-      /* background-image: url(https://i.pinimg.com/originals/f2/09/10/f209107c957f11b243c6a1afbe43e1ca.jpg); */
-      background-image: url(https://wallpaperaccess.com/full/3379182.jpg);
-      min-height: 100%;
+      background-image: url(https://cdn.wallpapersafari.com/65/72/m3ECPn.jpg);
+      /* background-image: url(https://free4kwallpapers.com/uploads/originals/2020/04/29/marvel-avengers-wallpaper.jpg); */
   }
   .para-img-2{
-    background-image: url(./Photos/hawra-bridge.jpg);
-    min-height: 100%;
+    background-image: url(./Photos/captain.jpg);
 }
 .para-img-3{
-    background-image: url(./Photos/taj-hotel.jpg);
+    background-image: url(https://wallpaperaccess.com/full/6792735.jpg);
     min-height: 100%;
 }
 .para-img-4{
-    background-image: url(./Photos/qutub-minar.jpg);
+    background-image: url(https://www.xtrafondos.com/en/descargar.php?id=3864&resolucion=3840x2534);
     min-height: 100%;
 }
 .para-img-5{
-    background-image: url(./Photos/lotus-temple.jpg);
+    background-image: url(https://free4kwallpapers.com/uploads/originals/2019/10/16/illustration-of-avengers-ironman-wallpaper.jpg);
     min-height: 100%;
 }
 .para-img-6{
-    background-image: url(./Photos/gateway-of-india.jpg);
+    background-image: url(https://www.xtrafondos.com/wallpapers/thor-fanart-minimalista-6340.jpg);
     min-height: 100%;
 }
   .para-img-1 , .para-img-2 , .para-img-3,.para-img-4,.para-img-5,.para-img-6{
       /* position: relative; */
       /* opacity: 0.60; */
-      background-position: center;
+      height: 100%;
+      /* background-position: center; */
       background-size: cover;
       background-repeat: no-repeat;
       background-attachment: fixed;
@@ -48,17 +45,16 @@ body, html{
   .center{
       display: flex;
       justify-content: center;
-      align-items: center;
+      /* align-items: center; */
   }
 
   .p-text{  
     width: 50%;
     text-align: center;
     color: #000;
-    font-size: 15px;
-    letter-spacing: 8px;
+    /* font-size: 3vw; */
+    letter-spacing: 20px;
     text-transform: uppercase;
-    background: thistle;
   } 
   .orange{
       color: orangered;
