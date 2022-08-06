@@ -161,7 +161,7 @@ p {
 .para-img-5,
 .para-img-6,
 .para-img-7 {
-  background-size: cover !important; 
+  background-size: contain !important; 
 }
 
   .p-text {
