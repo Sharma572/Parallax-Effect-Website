@@ -250,7 +250,7 @@ margin-right: 13px;
     text-shadow: rgba(224, 32, 202, 0.97) 7px 14px 34px rgba(27, 27, 27, 0.97);
   }
 }
-@media (max-width:304px){
+@media (max-width:290px){
   .p-text{
     font-size: 1rem;
     width: 100%;
