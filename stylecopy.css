@@ -1,18 +1,15 @@
-@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap");
+/* @import url('https://fonts.googleapis.com/css2?family=Lobster&family=Poppins:wght@500&display=swap');
 
 body,
 html {
   height: 100%;
   margin: 0;
-  font-family: "Lato", sans-serif;
+  font-family: "Poppins", sans-serif;
   font-weight: 400;
   line-height: 1.8em;
   color: #666;
 }
 
-h1 {
-  font-family: "Poppins", sans-serif;
-}
 /* NavBar */
 .header {
   padding: 0 4.8rem;
@@ -75,6 +72,7 @@ h1 {
 h2 {
   color: darkblue;
   font-size: 2.5rem;
+  text-transform: uppercase;
 }
 .power {
   color: darkred;
@@ -124,18 +122,20 @@ h2 {
   align-items: flex-start;
 }
 p {
-  font-size: 1.2rem;
+  font-size: 1rem;
 }
+
 .p-text {
   text-align: center;
   color: rgb(0, 0, 0);
   letter-spacing: 12px;
   text-transform: uppercase;
-  font-size: 2rem;
-  align-items: center;
+  font-family: 'Lobster', cursive;
+  font-weight: 300;
+  font-size: 1.8rem;
   text-shadow: rgb(255, 255, 255) 4px 2px 8px, rgb(246, 237, 71) 3px 5px 7px;
   position: relative;
-  top: 89%;
+  top: 85%;
 }
 .section {
   padding: 3rem 8rem;
@@ -145,10 +145,15 @@ p {
   height: 3rem;
   margin-right: 13px;
 }
-@media (max-width:500px){
+
+/* Media Queries for mobile Phone */
+@media (max-width:360px){
   .header{
     padding: 10px 12px;
   }
+  .section {
+    padding: 1.2rem 1rem;
+ }
   .para-img-1,
 .para-img-2,
 .para-img-3,
@@ -156,16 +161,12 @@ p {
 .para-img-5,
 .para-img-6,
 .para-img-7 {
-
-  background-size: cover !important;
-  
+  background-size: cover !important; 
 }
+
   .p-text {
-    font-size: 1rem;
-    width: 100%;
-    color: white;
-    letter-spacing: normal;
-    text-shadow: rgba(27, 27, 27, 0.97) 7px 4px 34px;
+    font-size: 1rem !important;
+ 
   }
   .para-img-1 {
     background-image: url(./images/banner-for-mobile.jpg);
@@ -190,27 +191,17 @@ p {
   .para-img-7 {
     background-image: url(./images/Dr.strange-mobile.jpg);
   }
-  .section{
-    padding: 1rem 1.5rem;
-  }
+  
 }
-
-@media (max-width:750px){
-  .p-text{
-    font-size: 1.5rem;
-  }
-  .para-img-1 , .para-img-2 , .para-img-3,.para-img-4,.para-img-5,.para-img-6,.para-img-7{
-    height: 100%;
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    background-position-y: 65px;
-}
+/* For responsive menu reveal */
+@media (max-width:850px){
   .mobile-navbar-btn {
     display: block;
     z-index: 99999;
-   
     color: #212529;
+  }
+  .p-text{
+    font-size: 1.6rem;
   }
 
   .header .logo {
@@ -263,9 +254,25 @@ p {
   .active .mobile-navbar-btn .mobile-nav-icon[name="menu-outline"] {
     display: none;
   }
-  .p-text {
-    width: 100%;
-    font-size: 1.3rem;
-  }
 }
 
+@media (max-width:750px){
+  .p-text{
+    font-size: 1.5rem;
+  }
+  .section {
+    padding: 1.2rem 1.4rem;
+ }
+  .para-img-1 , .para-img-2 , .para-img-3,.para-img-4,.para-img-5,.para-img-6,.para-img-7{
+    height: 100%;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position-y: 65px;
+}
+  
+  .p-text {
+    font-size: 1rem;
+  }
+}
+ 
